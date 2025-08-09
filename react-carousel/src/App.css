@@ -1,0 +1,38 @@
+.container {
+  position: relative;
+  width: 90%;
+  height: 220px;
+  margin: 10px auto;
+}
+
+.container > div {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 35%;
+  height: 70px;
+  width: 30px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.next-btn {
+  right: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
