@@ -1,0 +1,29 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.timer-container > input {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.btns-container {
+  display: flex;
+  width: max-content;
+  margin: auto;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
